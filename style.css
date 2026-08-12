@@ -1,117 +1,63 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.encabezado {
-    background-color: #e63946;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-
-    border-bottom: 6px solid #a4161a;
-}
-
-.encabezado h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-
-.encabezado p {
-    font-size: 18px;
-}
-
-.cuerpo {
-    background-color: #ffd60a;
-    color: #222;
-    padding: 50px 20px;
-
-    flex: 1;
-
+head title {
+    background-color: #333;
+    color: lightskyblue;
+    padding: 20px;
     text-align: center;
 }
 
-.cuerpo h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+body header h1 {
+    background-color: #333;
+    color: lightskyblue;
+    padding: 20px;
+    text-align: center;
 }
 
-.cuerpo > p {
-    max-width: 800px;
-    margin: 10px auto;
-    line-height: 1.6;
-    font-size: 17px;
+body header p {
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+body main h2{
+   color: lightskyblue;
+   text-align: center;
+}
+
+body main p{
+   color: lightskyblue;
+   text-align: center;
+}
+
+body main div h3 p{
+   color: lightskyblue;
+   text-align: center;
 }
 
 .tarjeta {
     background-color: #fff3a3;
     border: 3px solid #b8860b;
     border-radius: 15px;
+    text-align: center;
 
     max-width: 600px;
     margin: 30px auto;
     padding: 25px;
+    text-align: center;
 
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .tarjeta h3 {
     margin-bottom: 15px;
     font-size: 24px;
-}
-
-#boton-container {
-    margin-top: 30px;
-}
-
-#boton-container button {
-    background-color: #222;
-    color: white;
-
-    border: none;
-    border-radius: 8px;
-
-    padding: 15px 25px;
-
-    font-size: 16px;
-    cursor: pointer;
-
-    transition: 0.3s;
-}
-
-#boton-container button:hover {
-    background-color: #555;
-    transform: scale(1.05);
-}
-
-.footer {
-    background-color: #2a9d8f;
-    color: white;
-
     text-align: center;
-
-    padding: 25px;
-
-    border-top: 6px solid #1b6f65;
 }
 
-.footer p {
-    margin: 5px;
-}
-
-#mensaje {
-    margin-top: 30px;
-
-    font-size: 24px;
-    font-weight: bold;
-
-    color: #155724;
+body footer {
+    background-color: lightgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-align: end;
 }
